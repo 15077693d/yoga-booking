@@ -9,7 +9,7 @@ class TestPureDriver(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.driver = PureDriver(headless=False)
-        cls.driver.go_booking_with_location_id(40)
+        cls.driver.go_booking_with_location_id()
         cls.driver.sign_in()
         time.sleep(3)
         expect = 'Sign In'
@@ -42,15 +42,7 @@ class TestPureDriver(unittest.TestCase):
         driver.quit()
         self.assertEqual(expect, actual)
 
-    def test_02_go_booking_with_location_id_Yoga_Langham_Place(self):
-        self.driver.go_booking_with_location_id(7)
-        expect = "Yoga - Langham Place"
-        actual = self.driver.find_element_by_xpath('//span[@id="select2-location-container"]').get_attribute(
-            'innerText')
-        self.assertEqual(expect, actual)
-
     def test_03_go_booking_with_location_id_Millennium_City(self):
-        self.driver.go_booking_with_location_id(40)
         expect = "Yoga - Millennium City 5"
         actual = self.driver.find_element_by_xpath('//span[@id="select2-location-container"]').get_attribute(
             'innerText')
