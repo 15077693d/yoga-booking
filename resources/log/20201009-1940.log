@@ -1,6 +1,0 @@
-[INFO] 2020-10-09 19:40:19,004 logger __init__ (18) Create logger!
-[INFO] 2020-10-09 19:40:23,516 pureDriver go_booking_with_location_id (21) Go to https://pure360.pure-yoga.com/en/HK?location_id=40
-[INFO] 2020-10-09 19:40:25,833 pureDriver sign_in (25) [Start] sign in...
-[INFO] 2020-10-09 19:40:55,064 logger __init__ (18) Create logger!
-[INFO] 2020-10-09 19:40:59,944 pureDriver go_booking_with_location_id (21) Go to https://pure360.pure-yoga.com/en/HK?location_id=40
-[INFO] 2020-10-09 19:41:01,788 pureDriver sign_in (25) [Start] sign in...

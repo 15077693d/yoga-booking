@@ -1,6 +1,0 @@
-[INFO] 2020-10-10 11:38:37,933 logger __init__ (18) Create logger!
-[INFO] 2020-10-10 11:38:42,965 pureDriver go_booking_with_location_id (33) Go to https://pure360.pure-yoga.com/en/HK?location_id=40
-[INFO] 2020-10-10 11:38:45,041 pureDriver sign_in (44) [Start] sign in...
-[INFO] 2020-10-10 11:38:48,896 pureDriver sign_in (56) [End] sign in...
-[INFO] 2020-10-10 11:38:52,069 pureDriver click_book (126) [Start] Click Book {'lesson': 'Vinyasa Gentle', 'teacher': 'Stephanie N. (C)', 'duration': '60', 'button': <selenium.webdriver.remote.webelement.WebElement (session="1c59e9783850c560a311fb46456cd766", element="b6835f12-9190-4b7d-ae28-6baf3203815e")>}
-[INFO] 2020-10-10 11:38:57,139 pureDriver click_book (129) [End] Click Book {'lesson': 'Vinyasa Gentle', 'teacher': 'Stephanie N. (C)', 'duration': '60', 'button': <selenium.webdriver.remote.webelement.WebElement (session="1c59e9783850c560a311fb46456cd766", element="b6835f12-9190-4b7d-ae28-6baf3203815e")>}
